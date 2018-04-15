@@ -1,36 +1,24 @@
+{% if page.comments %}
+<div id="disqus_thread"></div>
 <script>
-    $(document).ready(function () {
-        var disqusPublicKey = "{{ site.disqus.public_key }}";
-        var disqusShortname = "{{ site.disqus.shortname }}";
-        var threadUrl = 'link:' + $('.comments .show-hidden').attr('data-disqus-url');
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+ */
 
-        $.ajax({
-            type: 'GET',
-            url: '//disqus.com/api/3.0/threads/set.jsonp',
-            data: {
-                api_key: disqusPublicKey,
-                forum: disqusShortname,
-                thread: threadUrl
-            },
-            cache: false,
-            dataType: 'jsonp',
-            success: function (result) {
-                if (result.response.length === 1) {
-                    btnText = '{{ site.data.i18n[site.lang].show_comments }} (' + result.response[0].posts + ')';
-                    $('.comments .show-hidden').html(btnText);
-                }
-            }
-        });
+var disqus_config = function () {
+	this.page.url = "{{ site.url }}{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
 
-        $('.comments .show-hidden').on('click', function () {
-            $.ajaxSetup({cache: true});
-            $.getScript('//' + disqusShortname + '.disqus.com/embed.js');
-            $.ajaxSetup({cache: false});
-            $(this).remove();
-        });
+var disqus_shortname = '{{ site.disqus }}';
 
-        if (/\#comments/.test(location.hash)) {
-            $('.comments .show-hidden').trigger('click');
-        }
-    });
+(function() {  // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = '//' + '000namc' + '.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+})();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
