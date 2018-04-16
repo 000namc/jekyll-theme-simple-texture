@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "네이버 AI 해커톤 도전합니다."
-date:   2018-03-13 13:44:00
-author: Seong-Uk Nam
+description: ""
 categories: diary
+tags: [diary, project, competition]
 comments: true
+redirect_from:
+  - /2018/03/13/
 ---
 <img src="{{ site.baseurl }}/assets/daily_life_Naver_AI.gif" title="Naver_AI" class="posts_Daily_life">
 [네이버 AI 해커톤](https://github.com/naver/ai-hackathon-2018)이 예선신청을 받고 있네요. 신청기간은 2018년 3월 12일(월)~3월 25일(일), 저는 TTT라는 2인팀으로 신청하였습니다. 전체 일정은 아래와 같구요.

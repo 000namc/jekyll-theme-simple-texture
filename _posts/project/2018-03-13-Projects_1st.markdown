@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "프로젝트 소개"
-date:   2018-03-13 11:36:00
-author: Seong-Uk Nam
-categories: 백준_순위권_들어가기
+title:  "프로젝트 소개 : 백준 순위권 들어가기"
+categories: project_1
+tags: [project]
 comments: true
+redirect_from:
+  - /2018/03/13/
 ---
 
  [백준](https://www.acmicpc.net) 은 여러 알고리즘 문제들을 풀고 온라인으로 채점받을 수 있는 사이트 입니다. 쉬운문제에서부터 몇일 고민해야 풀 수 있는 문제까지 다양한 문제들이 있는데, 이 문제들을 조금씩 풀어내면서 프로그래밍 실력을 키우려고합니다.
