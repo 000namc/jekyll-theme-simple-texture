@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "네이버 AI 해커톤 도전합니다."
+date:   2018-03-13 13:44:00
+author: Seong-Uk Nam
+categories: diary
+comments: true
+---
+<img src="{{ site.baseurl }}/assets/daily_life_Naver_AI.gif" title="Naver_AI" class="posts_Daily_life">
+[네이버 AI 해커톤](https://github.com/naver/ai-hackathon-2018)이 예선신청을 받고 있네요. 신청기간은 2018년 3월 12일(월)~3월 25일(일), 저는 TTT라는 2인팀으로 신청하였습니다. 전체 일정은 아래와 같구요.
+
+
+일정 | 기간 | 장소
+---- | ---- | ----
+참가 신청 <br> 2018년 3월 12일(월)~3월 25일(일) | 2주 | 온라인<br>http://naver.me/GyfLHzwg
+예선 <br>2018년 4월 2일(월)~4월 15일(일) | 2주 | 온라인<br>https://alpha.nsml.navercorp.com
+결선<br>2018년 4월 26일(목)~4월 27일(금) | 1박 2일 | 네이버 커넥트원(춘천)
+
+미션은 두가지가 주어집니다.
+
+1. 네이버 지식iN 질문 유사도 예측
+2. 네이버 영화 평점 예측
+
+두가지 미션 모두 자연어처리와 관련된 문제입니다. 문장으로 주어지는 데이터를 기반으로하여 1차 가공을 통해 모형에 집어넣을 수 있는 형태의 데이터로 만들어야합니다. 그 후에 모형을 통해 유사도 혹은 평점을 예측하게 되는것이구요.
+
+관련해서는 자료를 모으다가 대회결선이 끝난 후 Projects 에 올릴 예정입니다. 좋은 결과 가지고 오겠습니다!
