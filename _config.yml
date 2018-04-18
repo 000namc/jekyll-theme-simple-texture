@@ -49,7 +49,7 @@ author:
 home:
   section1: <h1>Seoug-Uk's Blog</h1>
   section2: <h2>A Blog for Machine Learning and Optimization</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/000namc" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
