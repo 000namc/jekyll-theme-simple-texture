@@ -1,5 +1,5 @@
 {% for post in posts_collate %}
-    {% capture this_year %}{{ post.date | date: "%b %Y" }}{% endcapture %}
+    {% capture this_year %}{{ post.date | date: "%b, %Y" }}{% endcapture %}
 
     {% if current_year != '' and {{this_year}} != current_year %}
         {% if forloop.first != true %}</ul>
