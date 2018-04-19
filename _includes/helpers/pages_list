@@ -2,11 +2,11 @@
     {% if node.title != null %}
         {% if group == null or group == node.group %}
             {% if page.url == node.url %}
-                <li class="active"><a class="active internal" href="{{node.url}}">{{node.title}}</a>
+                <li class="active"><a class="active internal" href="{{node.url}}">{{node.title}} <a href="https://000namc.github.io{{ post.url }}#disqus_thread">0 Comments</a></a>
             {% else %}
-                <li><a class="internal" href="{{node.url | relative_url }}">{{node.title}}</a>
+                <li><a class="internal" href="{{node.url | relative_url }}">{{node.title}} <a href="https://000namc.github.io{{ post.url }}#disqus_thread">0 Comments</a></a>
             {% endif %}
-            <span class="date">{{ node.date | date: "%b %d, %Y" }} <a href="https://000namc.github.io{{ post.url }}#disqus_thread"> ( 0 )</a> </span></li>
+            <span class="date">{{ node.date | date: "%b %d, %Y" }}  </span></li>
         {% endif %}
     {% endif %}
 {% endfor %}
