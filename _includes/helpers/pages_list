@@ -6,7 +6,7 @@
             {% else %}
                 <li><a class="internal" href="{{node.url | relative_url }}">{{node.title}}</a>
             {% endif %}
-            <span class="date">{{ node.date | date: "%b %d, %Y" }} <a href="https://000namc.github.io{{ post.url }}#disqus_thread">0 Comments</a> </span></li>
+            <span class="date">{{ node.date | date: "%b %d, %Y" }} <a href="https://000namc.github.io{{ post.url }}#disqus_thread"> ( 0 )</a> </span></li>
         {% endif %}
     {% endif %}
 {% endfor %}
