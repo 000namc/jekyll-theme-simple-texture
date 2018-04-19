@@ -4,7 +4,7 @@
     {% if current_year != '' and {{this_year}} != current_year %}
         {% if forloop.first != true %}</ul>
     {% endif %}
-        
+
         <h2 class='year'>{{ this_year }}</h2>
         <ul class="post-list">
     {% endif %}
@@ -14,7 +14,7 @@
         {% if post.last_updated %}
             <span title="{{ site.data.i18n[site.lang].last_updated }}: {{ post.last_updated | date: "%b %d, %Y" }}" class="date">{{ post.date | date: "%b %d, %Y" }}</span>
         {% else %}
-            <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="date">{{ post.date | date: "%b %d, %Y" }} <a href="https://xho95.github.io{{ post.url }}#disqus_thread">0 Comments</a> </span>
         {% endif %}
     </li>
 
