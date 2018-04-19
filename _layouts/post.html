@@ -1,6 +1,7 @@
 ---
 layout: blog
 ---
+
 <article class="unit-article layout-post">
     <div class="unit-inner unit-article-inner">
         <div itemscope itemtype="http://schema.org/Article" class="content">
@@ -67,6 +68,7 @@ layout: blog
                 </div>
             </footer>
             <div class="misc-content">
+                {% if page.comments != false %} • <a href="https://000namc.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
                 {% if page.comments != false %}
                     {% include common/disqus.html %}
                     <div class="comments">
