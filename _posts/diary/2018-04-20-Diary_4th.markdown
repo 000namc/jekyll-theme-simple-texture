@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "gitblog 이해"
+description: ""
+comments: true
+categories: diary
+tags : [blog, diary, manual]
+redirect_from:
+  - /2018/04/20/
+---
+
+z

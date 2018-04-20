@@ -4,7 +4,7 @@ title:  "블로그를 시작했습니다!"
 description: ""
 comments: true
 categories: diary
-tags : [diary]
+tags : [blog, diary]
 redirect_from:
   - /2018/03/06/
 ---
