@@ -2,6 +2,7 @@
 layout: post
 title: "1st_Nonlinear_Programming(작성중)"
 categories: study_2
+comments: true
 tags: [study, optimization]
 redirect_from:
   - /2018/05/01/
