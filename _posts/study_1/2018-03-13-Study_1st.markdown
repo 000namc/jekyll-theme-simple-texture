@@ -2,7 +2,7 @@
 layout: post
 title:  "프로젝트 소개 : Python Study"
 categories: study_1
-tags: [study, project, python]
+tags: [study, python]
 comments: true
 redirect_from:
   - /2018/03/13/
