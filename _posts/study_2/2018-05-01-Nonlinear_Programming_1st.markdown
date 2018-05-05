@@ -39,7 +39,7 @@ ___
 #### Local and Global Minima
 local minimum과 global minimum에 대하여 아래와같이 정의하도록 합니다.
 
-**Definition 1:** A vector $x^*$ is an unconstraind local minimum of f if there exists an $\epsilon >0$ such that
+**Definition 1:** A vector $$$x^*$$$ is an unconstraind local minimum of f if there exists an $\epsilon >0$ such that
 $$ f(x^*) \leq f(x), \quad \forall x \in \mathbb{R}^n \;  with \; \lVert x-x^* \rVert < \epsilon  $$
 
 **Definition 2:** A vector $x^*$ is an unconstraind global minimum of f if

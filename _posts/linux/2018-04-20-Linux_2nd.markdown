@@ -3,7 +3,7 @@ layout: post
 title:  "linux 이해"
 description: ""
 comments: true
-categories: diary
+categories: linux
 tags : [blog, diary, manual, linux]
 redirect_from:
   - /2018/04/20/
@@ -33,10 +33,10 @@ redirect_from:
 - dpkg -r [package name] : 설정파일을 제외한 package 삭제
 - dpkg -P [package name] : 설정파일 포함 package 삭제
 - /home/사용자 이름/ == /Home/
-- touch [file name] : 파일 생성 
+- touch [file name] : 파일 생성
 - apt-get remove [package name] : package 삭제
 - apt-get purge [package name] : 설정파일을 포함한 package 삭제
-- 
+-
 
 
 
@@ -95,7 +95,7 @@ echo 'source ~/.autoenv/activate.sh' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-customizing : 
+customizing :
 /home/seong-uk/Pythoncode/python2 에 py27 이라는 가상환경을
 /home/seong-uk/Pythoncode/python3 에 py36 이라는 가상환경을
 /home/seong-uk/ (( cd 명령시 나오는 디렉토리. )) 에 system python 을 자동으로 설정하도록 하자.
@@ -166,4 +166,4 @@ http://originalchoi.tistory.com/19
 
 - (a class="btn-light ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a) 라는 부분이 icon을 불러오고 클릭하면 그 url로 이동하게 해주는 구문인데 image를 어디에서 가져오는지, 분명하게 이해가 되지않음. 아마도 ico-gmail 이라고하면 약속된 gmail icon image의 주소를 읽어오는듯 싶은데...
 
-- 
+-

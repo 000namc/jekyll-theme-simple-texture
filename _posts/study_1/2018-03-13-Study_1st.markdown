@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "프로젝트 소개 : Python Study"
+title:  "스터디 소개 : Python Study"
 categories: study_1
 tags: [study, python]
 comments: true
