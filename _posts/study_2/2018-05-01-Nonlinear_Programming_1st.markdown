@@ -12,56 +12,56 @@ redirect_from:
 
 1장의 목차는 아래와 같습니다. 이중에 1.1 Optimality Condition에 대해 정리하려고 합니다.
 
-**1. Unconstrained Optimization**
-**1.1 Optimality Condition**
-1.2 Gradient Methods - Convergence
-1.3 Gradient Methods - Rate of Convergence
-1.4 Newton's Method and Variations
-1.5 Least Squares Problems
-1.6 Conjugate Direction Methods
-1.7 Quasi-Newton Methods
-1.8 Nonderivative Methods
-1.9 Discrete-Time Optimal Control
-1.10 Some Practical Guidelines
-1.11 Notes and Sources
+**1. Unconstrained Optimization**  
+**1.1 Optimality Condition**  
+1.2 Gradient Methods - Convergence  
+1.3 Gradient Methods - Rate of Convergence  
+1.4 Newton's Method and Variations  
+1.5 Least Squares Problems  
+1.6 Conjugate Direction Methods  
+1.7 Quasi-Newton Methods  
+1.8 Nonderivative Methods  
+1.9 Discrete-Time Optimal Control  
+1.10 Some Practical Guidelines  
+1.11 Notes and Sources  
 
 
-## 1 Unconstrained Optimization
-### 1.1 Optimality Condition
+## 1 Unconstrained Optimization  
+### 1.1 Optimality Condition  
 
-- 1.1.1 Variational Ideas
-- 1.1.2 Main Optimality Conditions
+- 1.1.1 Variational Ideas  
+- 1.1.2 Main Optimality Conditions  
 
 ___
-#### 1.1.1 Variational Ideas
+#### 1.1.1 Variational Ideas  
 ___
-#### Local and Global Minima
-local minimum과 global minimum에 대하여 아래와같이 정의하도록 합니다.
+#### Local and Global Minima  
+local minimum과 global minimum에 대하여 아래와같이 정의하도록 합니다.  
 
-**Definition 1:** A vector $$$x^*$$$ is **an unconstraind local minimum** of f if there exists an $$$\epsilon >0$$$ such that 
+**Definition 1:** A vector $$$x^*$$$ is **an unconstraind local minimum** of f if there exists an $$$\epsilon >0$$$ such that   
 $$ f(x^*) \leq f(x), \quad \forall x \in \mathbb{R}^n \;  with \; \lVert x-x^* \rVert < \epsilon  $$
 
-**Definition 2:** A vector $$$x^*$$$ is **an unconstraind global minimum** of f if
+**Definition 2:** A vector $$$x^*$$$ is **an unconstraind global minimum** of f if  
 $$ f(x^*) \leq f(x), \quad \forall x \in \mathbb{R}^n \;   $$
 
-** Note 3: ** 위의 두 정의에서 equility가 없이 성립될 경우(for $$$x \neq x^*$$$) 각각의 minimum을 **strict** 하다고 말하기로 합니다.
+** Note 3: ** 위의 두 정의에서 equility가 없이 성립될 경우(for $$$x \neq x^*$$$) 각각의 minimum을 **strict** 하다고 말하기로 합니다.  
 
-** Note 4: ** Local and global maximum are similarly defitned. -f 가 minimum을 갖을 때 f 가 maximum을 갖는다고 하겠습니다.
+** Note 4: ** Local and global maximum are similarly defitned. -f 가 minimum을 갖을 때 f 가 maximum을 갖는다고 하겠습니다.  
 
-> 함수 f가 최소 최대를 갖게하는 점 x 에는 minimum, maximum
-> 함수 f의 최소 최대값은 minima, maxima 라는 표현을 씁니다.
+> 함수 f가 최소 최대를 갖게하는 점 x 에는 minimum, maximum  
+> 함수 f의 최소 최대값은 minima, maxima 라는 표현을 씁니다.  
 
 ___
-#### Necessary Conditions for Optimality
+#### Necessary Conditions for Optimality  
 
-가장 기본적인 Necessary Condition에 대한 아이디어를 소개합니다. 여기에는 First order necessary condition과 Second order necessary condition 이 있고, 이 아이디어에 대한 증명은 아래 Proposition에서 보다 수학적인 표현으로 증명 할것입니다.
+가장 기본적인 Necessary Condition에 대한 아이디어를 소개합니다. 여기에는 First order necessary condition과 Second order necessary condition 이 있고, 이 아이디어에 대한 증명은 아래 Proposition에서 보다 수학적인 표현으로 증명 할것입니다.  
 
-** Idea 5: **
-We expect that if $$$x^*$$$ is an unconstrained local minimum, the first order cost variation due to a small variation $$$\Delta x$$$ is nonnegative:
+** Idea 5: **  
+We expect that if $$$x^*$$$ is an unconstrained local minimum, the first order cost variation due to a small variation $$$\Delta x$$$ is nonnegative:  
 
-$$ \nabla f(x^*)'\Delta x = \sum_{i=1}^n \frac{\partial f(x^*)}{\partial x_i} \Delta x_i \geq 0 $$
-In particular, by taking $$$\Delta x$$$ to be positive and negative multiples of the unit coordinate vectors, we obtain $$$\partial f(x^*) / \partial x_i \geq 0$$$ and $$$\partial f(x^*) / \partial x_i \leq 0$$$, respectively, for all coordinates $$$ i = 1, \dots, n $$$ . Equivalently, **we have the first order necessary condition **
-$$ \nabla f(x^*) = 0.  $$
+$$ \nabla f(x^*)'\Delta x = \sum_{i=1}^n \frac{\partial f(x^*)}{\partial x_i} \Delta x_i \geq 0 $$  
+In particular, by taking $$$\Delta x$$$ to be positive and negative multiples of the unit coordinate vectors, we obtain $$$\partial f(x^*) / \partial x_i \geq 0$$$ and $$$\partial f(x^*) / \partial x_i \leq 0$$$, respectively, for all coordinates $$$ i = 1, \dots, n $$$ . Equivalently, **we have the first order necessary condition **  
+$$ \nabla f(x^*) = 0.  $$  
 
 단순한 아이디어 입니다. $$$\nabla f(x^*) = 0$$$ 이라는 사실을 모른다는 가정하에 $$$x^*$$$에서의 값이 주변에서의 값보다 더 작을것이기 때문에 그 점에서 생각할 수 있는 아주 작은 증가분 $$$ \nabla f(x^*)'\Delta x$$$ 이 양수일 것이라는 것이죠. 더 작아진다면 local minimum이 아닐 태니까. 이 논리를 $$$-\Delta x$$$ 방향으로도 적용하게 되면(모든 방향으로의 미분값이 같을태니) 위와같은 결론을 얻을 수 있겠습니다.
 
