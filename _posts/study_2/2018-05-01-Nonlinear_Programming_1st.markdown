@@ -1,4 +1,4 @@
-%%---
+---
 layout: post
 title: "1st_Nonlinear_Programming"
 categories: study_2

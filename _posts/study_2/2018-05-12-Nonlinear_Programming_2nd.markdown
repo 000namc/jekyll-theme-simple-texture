@@ -1,4 +1,4 @@
-%%---
+---
 layout: post
 title: "2nd_Nonlinear_Programming(작성중)"
 categories: study_2
