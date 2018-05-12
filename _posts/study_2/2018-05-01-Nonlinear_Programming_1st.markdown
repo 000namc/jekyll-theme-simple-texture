@@ -148,12 +148,12 @@ ___
 많은 경우에 적어도 하나의 global minimum을 보장받을 수 있는 상황을 기대합니다. 하지만 아래와같이 두가지 가능성이 있습니다.
 
 
-The set $$\{ f(x) | x \in X \}$$ is bounded below. that is, there exists a scalar $$M$$ such that $$M \leq f(x)$$ for all $$x \in X$$.  
-The set $$\{ f(x) | x \in X \}$$ is unbounded below. In this case we write
+The set $$\{ f(x) : x \in X \}$$ is bounded below. that is, there exists a scalar $$M$$ such that $$M \leq f(x)$$ for all $$x \in X$$.  
+The set $$\{ f(x) : x \in X \}$$ is unbounded below. In this case we write
 
 $$ \text{inf}_{ x \in X} f(x) = -\infty.$$
 
-**Theorem 11:** Weierstrass Theorem
+**Theorem 11: Weierstrass Theorem**
 Existence of at least one global minimum is guaranteed if $$f$$ is a continuous function and $$X$$ is a compact subset of $$\mathbb{R^n}.$$
 
 ___
