@@ -153,16 +153,23 @@ The set $$\{ f(x) : x \in X \}$$ is unbounded below. In this case we write
 
 $$ \text{inf}_{ x \in X} f(x) = -\infty.$$
 
-**Theorem 11: Weierstrass Theorem**
+**Theorem 11: Weierstrass Theorem**  
 Existence of at least one global minimum is guaranteed if $$f$$ is a continuous function and $$X$$ is a compact subset of $$\mathbb{R^n}.$$
 
 ___
 
 #### Why do we Need Optimality Conditions?
 
+Optimization problem을 푸는데에 있어 Optimality Condition은 정말 중요한 역할을 합니다. 보통 아래와같은 과정을 통해 문제를 풀게됩니다 :
+
+우선, first order necessary condition을 만족하는 모든 점을 찾습니다. 그리고난 후 이 점들에 대해서 second order necessary condition이 만족하는 것들을 뽑아냅니다. 이점들중에 $\nabla^2f$가 positive definite이게 하는 점이 local minimum 이겠습니다.
+
+
 ___
 
 #### Sensitivity
+
+Sensitivity와 관해서 3.2절에서 다루도록 하겠습니다.
 
 ___
 
@@ -183,6 +190,28 @@ $$ \nabla^2 f(x^*) : \text{positive semidefinite.} \qquad \text{Second Order Nec
 ___
 
 **Proof:**
+
+Fix some $d \in \mathbb{R}$. Then, using the chain rule to differentiate the function $g(\alpha) - f(x^*+\alpha d) $ of the scalar $\alpha$, we have
+
+$$ 0 \leq lim_{\alpha \to 0} \frac{f(x^*+\alpha d) - f(x^*)}{\alpha} = \frac{dg(0)}{d\alpha} = d'\nabla f(x^*),$$
+
+where the inequality follows from the assumption that $x^*$ is a local minimum. Since d is arbitrary, the same inequality holds with d replaced by $-d$. Therefore, $d'\nabla f(x^*) = 0$ for all $d\in \mathbb{R}^n,$ which shows that $\nabla f(x^*) = 0.$
+
+Assume that $f$ is twice continuously differentiable, and let $d$ be any vector in $\mathbb{R}^n$. For all $\alpha \in \mathbb{R}$, the second order Talyor series expansion yields
+
+$$ f(x^* + \alpha d) - f(x^*) = \alpha \nabla f(x^*)'d + \frac{\alpha^2}{2} d'\nabla^2f(x^*)d + o(\alpha^2)$$
+
+Using the condition $\nabla f(x^*) = 0$ and the local optimality of $x^*$, we see that there is a sufficiently small $\epsilon>0$ such that for all $\alpha$ with $\alpha \in (0,\epsilon),$
+
+$$ 0 \leq \frac{f(x^* + \alpha d) - f(x^*)}{\alpha^2} = \frac{1}{2}d'\nabla^2f(x^*)d + \frac{o(\alpha^2)}{\alpha^2} $$
+
+Taking the limit as $\alpha \to 0$ and using the fact
+
+$$ lim_{\alpha \to 0}  \frac{o(\alpha^2)}{\alpha^2} = 0,  $$
+
+we obtain $d'\nabla^2f(x^*)d \geq 0,$ showing that $\nabla^2f(x^*)$ is positive semidefinite.
+
+**Q.E.D.**
 
 ___
 
