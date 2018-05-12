@@ -76,15 +76,18 @@ $$ \nabla f(x^*) = 0.  $$
 
 ___
 
-위 아이디어를 2차 미분까지를 고려하여 적용해보면 아래와같은 necessary condition을 얻을 수 있습니다.
-**Idea 6:**
+위 아이디어를 2차 미분까지를 고려하여 적용해보면 아래와같은 necessary condition을 얻을 수 있습니다.  
+**Idea 6:**  
 We also expect that the second order cost variation due to a small variation $$\Delta x $$ must also be nonnegative:
+
 $$ \nabla f(x^*)' \Delta x + \frac{1}{2!} \Delta x' \nabla^2 f(x^*) \Delta x \geq 0. $$
 
 Since $$\nabla f(x^*)' \Delta x = 0$$, **we obtain second order necesarry condition**
+
 $$ \Delta x' \nabla^2 f(x^*) \Delta x \geq 0, $$
 
 which implies that
+
 $$ \nabla^2 f(x^*) : \text{positive semidefinite.}$$
 
 **Note 7:**  아래의 조건을 **strengthened form of the second order necessary condition** 이라고 부르겠습니다.
@@ -100,7 +103,7 @@ ___
 
 #### The Case of a Convex Cost Function
 
-어떤 함수가 정의된 범위 내에서 Convex 라고 하면 local minimum과 global minimum이 같은 값을 갖게 됩니다. 게다가 위에서 얻었던 necessary condition $$\nabla f(x) =0 $$이 sufficient condition이 되겠습니다. 증명은 아래의 Proposition에서 하도록 하겠습니다.
+어떤 함수가 정의된 범위 내에서 Convex 라고 하면 local minimum과 global minimum이 같은 값을 갖게 됩니다. 게다가 위에서 얻었던 necessary condition $$\nabla f(x) =0 $$ 이 sufficient condition이 되겠습니다. 증명은 아래의 Proposition에서 하도록 하겠습니다.
 
 ___
 
@@ -136,6 +139,7 @@ Quadratic function은 두가지 이유에서 중요합니다. 첫번째로 많�
 
 
 $$f(x) = f(x^*)(x-x^*) + \frac{1}{2}(x-x^*)'\nabla^2f(x^*)(x-x^*) + o(\lVert x-x^* \rVert^2 )$$
+
 This means that we can carry out much of our analysis and experimentation with algorithms using positive definite quadratic functions and expect that the conclusions will largely carry over to more general cost functions near convergence to such local minima.
 
 ___
@@ -144,9 +148,8 @@ ___
 많은 경우에 적어도 하나의 global minimum을 보장받을 수 있는 상황을 기대합니다. 하지만 아래와같이 두가지 가능성이 있습니다.
 
 
- The set $$ \{ f(x) | x \in X \} $$ is bounded below. that is, there exists a scalar $$M$$ such that $$M \leq f(x) $$ for all $$x \in X$$.
-
- The set $$ \{ f(x) | x \in X \} $$ is unbounded below. In this case we write
+The set $$\{ f(x) | x \in X \}$$ is bounded below. that is, there exists a scalar $$M$$ such that $$M \leq f(x)$$ for all $$x \in X$$.  
+The set $$\{ f(x) | x \in X \}$$ is unbounded below. In this case we write
 
 $$ \text{inf}_{ x \in X} f(x) = -\infty.$$
 
@@ -168,7 +171,7 @@ We now provide formal statements and proofs of the optimality conditions duscuss
 
 ___
 
-**Proposition 1.1.1 : (Necessary Optimality Conditions)**
+**Proposition 1.1.1 : (Necessary Optimality Conditions)**  
 Let $$x^*$$ be an unconstrained local minimum of $$ f : \mathbb{R}^n \mapsto \mathbb{R}, $$ and assume that $$f$$ is continuously differetiable in an open set $$S$$ containing $$x^*$$. Then
 
 $$\nabla f(x^*) = 0 . \qquad \text{First Order Necessary Condition}$$
@@ -183,7 +186,7 @@ ___
 
 ___
 
-**Proposition 1.1.2 : (Convex Cost Function)**
+**Proposition 1.1.2 : (Convex Cost Function)**  
 Let $$f:X \mapsto \mathbb{R}$$ be a convex funtion over the convex set X.
 
 (a) A local minimum of $$f$$ over $$X$$ is also a global minimum over $$X$$. If in addition $$f$$ is strictly convex, then there exists at most one global minimum of $$f$$.
@@ -196,7 +199,7 @@ ___
 **Proof:**
 
 ___
-**Proposition 1.1.3 : (Second Order Sufficient Optimality Conditions)**
+**Proposition 1.1.3 : (Second Order Sufficient Optimality Conditions)**  
 Let $$f:\mathbb{R}^n \mapsto \mathbb{R}$$ be twice continuously differentiable in an open set $$S$$. Suppose that a vector $$x^* \in S$$ satisfies the conditions
 
 $$\nabla f(x^*) = 0, \nabla^2f(x^*) : \text{positive definite}.$$
