@@ -189,7 +189,7 @@ $$ \nabla^2 f(x^*) : \text{positive semidefinite.} \qquad \text{Second Order Nec
 
 ___
 
-**Proof:**
+    Proof:
 
 Fix some $$d \in \mathbb{R}$$. Then, using the chain rule to differentiate the function $$g(\alpha) - f(x^*+\alpha d) $$ of the scalar $$\alpha$$, we have
 
@@ -211,7 +211,7 @@ $$ lim_{\alpha \to 0}  \frac{o(\alpha^2)}{\alpha^2} = 0,  $$
 
 we obtain $$d'\nabla^2f(x^*)d \geq 0,$$ showing that $$\nabla^2f(x^*)$$ is positive semidefinite.
 
-**Q.E.D.**
+    Q.E.D.
 
 ___
 
