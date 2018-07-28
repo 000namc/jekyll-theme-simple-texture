@@ -6,6 +6,7 @@ comments: true
 tags: [study, optimization]
 redirect_from:
   - /2018/05/01/
+use_math: true
 ---
 
 # Nonlinear Programming(2018.05.01)
