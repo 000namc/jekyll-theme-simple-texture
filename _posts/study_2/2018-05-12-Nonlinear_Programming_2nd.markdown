@@ -8,9 +8,10 @@ redirect_from:
   - /2018/05/12/
 ---
 
-# Nonlinear Programming(2018.05.01)
 
-1장의 목차는 아래와 같습니다. 이중에 1.1 Optimality Condition에 대해 정리하려고 합니다.
+# Nonlinear Programming(2018.05.12)
+
+1장의 목차는 아래와 같습니다. 이중에 1.2 Gradient Methods - Convergence 에 대해 정리하려고 합니다.
 
 **1. Unconstrained Optimization**  
 1.1 Optimality Condition  
