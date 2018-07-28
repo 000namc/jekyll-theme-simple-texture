@@ -2,7 +2,12 @@
 layout: blog
 ---
 
+
+
 <article class="unit-article layout-post">
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
     <div class="unit-inner unit-article-inner">
         <div itemscope itemtype="http://schema.org/Article" class="content">
             <header>
