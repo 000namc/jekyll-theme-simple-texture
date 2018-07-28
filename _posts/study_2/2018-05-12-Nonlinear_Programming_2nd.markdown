@@ -29,3 +29,6 @@ redirect_from:
 
 ## 1 Unconstrained Optimization    
 ### 1.2 Gradient Methods - Convergence  
+
+
+$ x $ + $$ y $$
