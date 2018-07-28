@@ -40,17 +40,17 @@ ___
 #### Local and Global Minima  
 local minimum과 global minimum에 대하여 아래와같이 정의하도록 합니다.  
 
-**Definition 1:** A vector $$x^*$$ is **an unconstraind local minimum** of f if there exists an $$\epsilon >0$$ such that   
+**Definition 1:** A vector \(x^* \) is **an unconstraind local minimum** of f if there exists an \( \epsilon >0 \) such that   
 
-$$ f(x^*) \leq f(x), \quad \forall x \in \mathbb{R}^n \;  with \; \lVert x-x^* \rVert < \epsilon  $$
+\[ f(x^*) \leq f(x), \quad \forall x \in \mathbb{R}^n \;  with \; \lVert x-x^* \rVert < \epsilon  \]
 
-**Definition 2:** A vector $$x^*$$ is **an unconstraind global minimum** of f if  
+**Definition 2:** A vector \( x^* \) is **an unconstraind global minimum** of f if  
 
-$$ f(x^*) \leq f(x), \quad \forall x \in \mathbb{R}^n \;   $$
+\[ f( x^* ) \leq f(x), \quad \forall x \in \mathbb{R}^n  \]
 
-**Note 3:** 위의 두 정의에서 equility가 없이 성립될 경우(for $$x \neq x^*$$) 각각의 minimum을 **strict** 하다고 말하기로 합니다.  
+**Note 3:** 위의 두 정의에서 equility가 없이 성립될 경우( for \( x \neq x^* \) ) 각각의 minimum을 **strict** 하다고 말하기로 합니다.  
 
-**Note 4:** Local and global maximum are similarly defitned. $$-f$$ 가 minimum을 갖을 때 $$f$$ 가 maximum을 갖는다고 하겠습니다.  
+**Note 4:** Local and global maximum are similarly defitned. \( -f \) 가 minimum을 갖을 때 \( f \) 가 maximum을 갖는다고 하겠습니다.  
 
 > 함수 f가 최소 최대를 갖게하는 점 x 에는 minimum, maximum  
 > 함수 f의 최소 최대값은 minima, maxima 라는 표현을 씁니다.  
