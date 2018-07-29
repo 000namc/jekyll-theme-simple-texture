@@ -15,7 +15,7 @@ redirect_from:
  https://000namc.github.io/blog/2018/04/20/Diary_3rd/  
 
 ___
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+Some Markdown text with <span style="color:yellow">some *blue* text</span>.
 
 
 
