@@ -8,7 +8,7 @@ tags : [blog, diary]
 redirect_from:
   - /2018/03/06/
 ---
-Posts Layout
+**Posts Layout**
 
 - [2018-03-06 : 블로그를 시작했습니다.](https://000namc.github.io/blog/2018/03/06/blog_begin/) $\leftarrow$  
 - [2018-04-20 : 블로그 Customizing_1](https://000namc.github.io/blog/2018/04/20/blog_customizing_1/)  
