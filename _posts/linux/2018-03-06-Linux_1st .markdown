@@ -11,8 +11,8 @@ redirect_from:
 
 운영체제 : Ubuntu 16.04  
 프로그래밍언어 : R, Python, Octave  
-마크다운 편집기 : Haroopad  
-편집기 : Atom, jupyter  
+코드 편집기 : Atom, jupyter  
+마크다운 편집기 : Atom
 스크린샷 어플 : shutter  
 파이썬 버전관리 : pyenv  
 LaTex 편집기 : Lyx
