@@ -8,9 +8,13 @@ tags : [blog, diary]
 redirect_from:
   - /2018/07/20/
 ---
+Posts Layout
 
-https://000namc.github.io/blog/2018/04/20/Diary_3rd/
-https://000namc.github.io/blog/2018/04/20/Diary_3rd/
+- [2018-03-06 : 블로그를 시작했습니다.](https://000namc.github.io/blog/2018/03/06/blog_begin/)  
+- [2018-04-20 : 블로그 Customizing_1](https://000namc.github.io/blog/2018/04/20/blog_customizing_1/)  
+- [2018-07-29 : 블로그 Customizing_2](https://000namc.github.io/blog/2018/07/29/blog_customizing_2/)  $\leftarrow$
+
+___
 
 2018년 3월 5일에 처음으로 https://github.com/bencentra 에서 fork를 받았습니다. 이후 Customizing을 진행하였고, 보다 다른기능이 있는 테마를 다시 찾아보게되었습니다.
 

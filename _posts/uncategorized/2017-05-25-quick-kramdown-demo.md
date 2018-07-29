@@ -12,6 +12,10 @@ redirect_from:
 * Kramdown table of contents
 {:toc .toc}
 
+Some Markdown text with <span style="background-color:yellow">some *blue* text </span>.
+Some Markdown text with <span style="color:yellow">some *blue* text </span>.
+
+
 # General Usage
 
 This is a normal paragraph.

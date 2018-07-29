@@ -9,13 +9,13 @@ redirect_from:
   - /2018/04/20/
 ---
 
-- [첫번째 포스트](https://000namc.github.io/blog/2018/04/20/Diary_3rd/)  
-- [두번째 포스트](https://000namc.github.io/blog/2018/04/20/Diary_3rd/)  $\leftarrow$
-- [세번째 포스트](https://000namc.github.io/blog/2018/04/20/Diary_3rd/)  
+Posts Layout
+
+- [2018-03-06 : 블로그를 시작했습니다.](https://000namc.github.io/blog/2018/03/06/blog_begin/)  
+- [2018-04-20 : 블로그 Customizing_1](https://000namc.github.io/blog/2018/04/20/blog_customizing_1/)  $\leftarrow$
+- [2018-07-29 : 블로그 Customizing_2](https://000namc.github.io/blog/2018/07/29/blog_customizing_2/)  
 
 ___
-Some Markdown text with <span style="background-color:yellow">some *blue* text </span>.
-Some Markdown text with <span style="color:yellow">some *blue* text </span>.
 
 
 
