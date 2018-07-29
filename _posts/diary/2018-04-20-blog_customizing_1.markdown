@@ -9,10 +9,10 @@ redirect_from:
   - /2018/04/20/
 ---
 
-`이 글과 관련된 이전 글들 :`
- https://000namc.github.io/blog/2018/04/20/Diary_3rd/
-`이 글과 관련된 다음 글들 :`
- https://000namc.github.io/blog/2018/04/20/Diary_3rd/
+`이 글과 관련된 이전 글들 :`  
+ https://000namc.github.io/blog/2018/04/20/Diary_3rd/  
+`이 글과 관련된 다음 글들 :`  
+ https://000namc.github.io/blog/2018/04/20/Diary_3rd/  
 
 ___
 
