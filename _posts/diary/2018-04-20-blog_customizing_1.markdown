@@ -15,6 +15,8 @@ redirect_from:
  https://000namc.github.io/blog/2018/04/20/Diary_3rd/  
 
 ___
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
+
 
 
 http://jekyllthemes.org/ 이곳에보면 이용할 수 있는 많은 테마들이 있는데, 이중에 최종적으로 [simple texture](https://github.com/yizeng/jekyll-theme-simple-texture) 라는 테마를 이용하기로 결정하였습니다. 깔끔한 디자인과 보다 글들이 직관적으로 정렬되어 있고 search 기능을 제공한다는 것이 마음에 들어 선택하였습니다.
