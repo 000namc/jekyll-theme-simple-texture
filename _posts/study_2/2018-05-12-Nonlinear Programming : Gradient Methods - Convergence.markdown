@@ -12,6 +12,7 @@ redirect_from:
 - [2018-05-02 : 스터디 소개 : Nonlinear Programming : Optimality Condition Study](https://000namc.github.io/blog/2018/05/02/Nonlinear-Programming-Optimality-Condition/)
 - [2018-05-12 : 스터디 소개 : Nonlinear Programming : Gradient Methods - Convergence(작성중) Study](https://000namc.github.io/blog/2018/05/12/Nonlinear-Programming-Gradient-Methods-Convergence/) $\leftarrow$  
 
+
 1장의 목차는 아래와 같습니다. 이중에 1.2 Gradient Methods - Convergence 에 대해 정리하려고 합니다.
 
 **1. Unconstrained Optimization**  
