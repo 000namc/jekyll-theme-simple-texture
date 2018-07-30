@@ -27,6 +27,7 @@ redirect_from:
 1.10 Some Practical Guidelines  
 1.11 Notes and Sources  
 
+* Kramdown table of contents
 {:toc .toc}
 
 # 1 Unconstrained Optimization  
