@@ -7,7 +7,17 @@ comments: true
 redirect_from:
   - /2018/03/14/
 ---
+**Posts Layout**
 
+- [2018-03-13 : 스터디 소개 : Python Study](https://000namc.github.io/blog/2018/03/13/Python-Study/)
+- [2018-03-14 : Python Study Orientation](https://000namc.github.io/blog/2018/03/14/Python-Study-Orientation/)  
+- [2018-03-14 : Python Study : Summary](https://000namc.github.io/blog/2018/03/14/Python-Study-Summary/)$\leftarrow$  
+- [2018-03-21 : Python Study : Install Python](https://000namc.github.io/blog/2018/03/21/Python-Study-Install-Python/)
+- [2018-03-28 : Python Study : Basic](https://000namc.github.io/blog/2018/03/28/Python-Study-Basic/)
+- [2018-04-04 : Python Study : Example Titanic](https://000namc.github.io/blog/2018/04/04/Python-Study-Example-Titanic/)
+- [2018-05-02 : Python Study : Pandas Module](https://000namc.github.io/blog/2018/05/02/Python-Study-Pandas-Module/)
+
+___
 Study를 시작하기전에 공부할 내용을 다 정하고 시작하지 않았습니다.  
 해서 어떤 내용들을 학습했고, 앞으로는 또 어떤 내용을 공부해나갈지 정리할 필요가 있겠습니다.  
 
