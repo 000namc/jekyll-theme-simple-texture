@@ -29,18 +29,18 @@ redirect_from:
 
 {:toc .toc}
 
-## 1 Unconstrained Optimization  
-### 1.1 Optimality Condition  
+# 1 Unconstrained Optimization  
+## 1.1 Optimality Condition  
 
 - 1.1.1 Variational Ideas  
 - 1.1.2 Main Optimality Conditions  
 
 ___
 
-#### 1.1.1 Variational Ideas  
+### 1.1.1 Variational Ideas  
 ___
 
-#### Local and Global Minima  
+### Local and Global Minima  
 local minimum과 global minimum에 대하여 아래와같이 정의하도록 합니다.  
 
 **Definition 1:** A vector $ x^* $ is **an unconstraind local minimum** of f if there exists an $ \epsilon >0 $ such that   
@@ -61,7 +61,7 @@ $$ f( x^* ) \leq f(x), \quad \forall x \in \mathbb{R}^n  $$
 
 ___
 
-#### Necessary Conditions for Optimality  
+### Necessary Conditions for Optimality  
 
 가장 기본적인 Necessary Condition에 대한 아이디어를 소개합니다. 여기에는 First order necessary condition과 Second order necessary condition 이 있고, 이 아이디어에 대한 증명은 아래 Proposition에서 보다 수학적인 표현으로 증명 할것입니다.  
 
@@ -105,13 +105,13 @@ $$ \nabla^2 f( x^* ) : \text{positive definite.}$$
 
 ___
 
-#### The Case of a Convex Cost Function
+### The Case of a Convex Cost Function
 
 어떤 함수가 정의된 범위 내에서 Convex 라고 하면 local minimum과 global minimum이 같은 값을 갖게 됩니다. 게다가 위에서 얻었던 necessary condition $\nabla f(x) =0 $ 이 sufficient condition이 되겠습니다. 증명은 아래의 Proposition에서 하도록 하겠습니다.
 
 ___
 
-#### Sufficient Conditions for Optimality
+### Sufficient Conditions for Optimality
 
 하지만 위의 경우처럼 Convexity를 보장할 수 없는경우에는 first order necessary condition이 바로 sufficient condition이 되지 않습니다. Convexity가 보장되지 않은경우에 local minimum을 갖을 sufficient condtion은 first order necessary condition과 strengthened form of the second order necessary condition을 만족하는 것입니다. 증명은 아래의 Proposition에서 하도록 하겠습니다.
 
@@ -121,7 +121,7 @@ ___
 
 ___
 
-#### Quadratic Cost Functions
+### Quadratic Cost Functions
 
 Quadratic function은 아래와 같이 쓸 수 있습니다.
 
@@ -148,7 +148,7 @@ This means that we can carry out much of our analysis and experimentation with a
 
 ___
 
-#### Existence of Optimal Solutions
+### Existence of Optimal Solutions
 많은 경우에 적어도 하나의 global minimum을 보장받을 수 있는 상황을 기대합니다. 하지만 아래와같이 두가지 가능성이 있습니다.
 
 
@@ -162,7 +162,7 @@ Existence of at least one global minimum is guaranteed if $f$ is a continuous fu
 
 ___
 
-#### Why do we Need Optimality Conditions?
+### Why do we Need Optimality Conditions?
 
 Optimization problem을 푸는데에 있어 Optimality Condition은 정말 중요한 역할을 합니다. 보통 아래와같은 과정을 통해 문제를 풀게됩니다 :
 
@@ -171,13 +171,13 @@ Optimization problem을 푸는데에 있어 Optimality Condition은 정말 중�
 
 ___
 
-#### Sensitivity
+### Sensitivity
 
 Sensitivity와 관해서 3.2절에서 다루도록 하겠습니다.
 
 ___
 
-#### 1.1.2 Main Optimality Conditions
+### 1.1.2 Main Optimality Conditions
 We now provide formal statements and proofs of the optimality conditions duscussed inthe preceding section.
 
 ___
