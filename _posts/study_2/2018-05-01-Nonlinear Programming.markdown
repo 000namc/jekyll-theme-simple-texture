@@ -10,13 +10,10 @@ redirect_from:
 
 **Posts Layout**
 
-- [2018-03-13 : 스터디 소개 : Python Study](https://000namc.github.io/blog/2018/03/13/Python-Study/) $\leftarrow$  
-- [2018-03-14 : Python Study Orientation](https://000namc.github.io/blog/2018/03/14/Python-Study-Orientation/)  
-- [2018-03-14 : Python Study : Summary](https://000namc.github.io/blog/2018/03/14/Python-Study-Summary/)
-- [2018-03-21 : Python Study : Install Python](https://000namc.github.io/blog/2018/03/21/Python-Study-Install-Python/)
-- [2018-03-28 : Python Study : Basic](https://000namc.github.io/blog/2018/03/28/Python-Study-Basic/)
-- [2018-04-04 : Python Study : Example Titanic](https://000namc.github.io/blog/2018/04/04/Python-Study-Example-Titanic/)
-- [2018-05-02 : Python Study : Pandas Module](https://000namc.github.io/blog/2018/05/02/Python-Study-Pandas-Module/)
+- [2018-05-01 : 스터디 소개 : Nonlinear Programming Study](https://000namc.github.io/blog/2018/05/01/Nonlinear-Programming/) $\leftarrow$  
+- [2018-05-02 : 스터디 소개 : Nonlinear Programming : Optimality Condition Study](https://000namc.github.io/blog/2018/05/02/Nonlinear-Programming-Optimality-Condition/) 
+- [2018-05-12 : 스터디 소개 : Nonlinear Programming : Gradient Methods - Convergence(작성중) Study](https://000namc.github.io/blog/2018/05/12/Nonlinear-Programming-Gradient-Methods-Convergence/)
+
 
 ___
 
