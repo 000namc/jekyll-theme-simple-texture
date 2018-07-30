@@ -11,8 +11,8 @@ redirect_from:
 **Posts Layout**
 
 - [2018-05-01 : 스터디 소개 : Nonlinear Programming Study](https://000namc.github.io/blog/2018/05/01/Nonlinear-Programming/) $\leftarrow$  
-- [2018-05-02 : 스터디 소개 : Nonlinear Programming : Optimality Condition Study](https://000namc.github.io/blog/2018/05/02/Nonlinear-Programming-Optimality-Condition/)
-- [2018-05-12 : 스터디 소개 : Nonlinear Programming : Gradient Methods - Convergence(작성중) Study](https://000namc.github.io/blog/2018/05/12/Nonlinear-Programming-Gradient-Methods-Convergence/)
+- [2018-05-02 : Nonlinear Programming : Optimality Condition Study](https://000namc.github.io/blog/2018/05/02/Nonlinear-Programming-Optimality-Condition/)
+- [2018-05-12 : Nonlinear Programming : Gradient Methods - Convergence(작성중) Study](https://000namc.github.io/blog/2018/05/12/Nonlinear-Programming-Gradient-Methods-Convergence/)
 
 ___
 
