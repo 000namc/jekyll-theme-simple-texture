@@ -18,4 +18,8 @@ redirect_from:
 - [2018-05-02 : Python Study : Pandas Module](https://000namc.github.io/blog/2018/05/02/Python-Study-Pandas-Module/)
 
 ___
-[get the PDF]( {{ "/assets/html/orientation.html" | absolute_url }} )
+
+html파일을 upload 하면 페이지 레이아웃이 약간 깨지는 문제가 있습니다.
+해결되기 전까지는 아래와같이 파일을 다운로드 하여 보는 식으로 하겠습니다.
+
+[Orientation.html]( {{ "/assets/html/python_study/orientation.html" | absolute_url }} )

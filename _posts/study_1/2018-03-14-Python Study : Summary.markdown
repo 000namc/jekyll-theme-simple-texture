@@ -29,7 +29,7 @@ ___
 2 | built-in function 학습
 3 | 데이터 분석 예제 - titanic
 4 | pandas package 학습
-5 | functional programming 학습
+5 | 
 6 |
 
 ___  
