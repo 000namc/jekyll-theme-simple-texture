@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1st_Nonlinear_Programming"
+title: "Nonlinear Programming : Optimality Condition"
 categories: study_2
 comments: true
 tags: [study, optimization]

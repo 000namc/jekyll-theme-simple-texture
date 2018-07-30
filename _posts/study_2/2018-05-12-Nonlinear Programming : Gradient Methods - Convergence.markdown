@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2nd_Nonlinear_Programming(작성중)"
+title: "Nonlinear Programming : Gradient Methods - Convergence(작성중)"
 categories: study_2
 comments: true
 tags: [study, optimization]
