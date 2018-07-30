@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Study Summary"
+title:  Python Study : Summary
 categories: study_1
 tags: [study, python]
 comments: true
@@ -32,4 +32,4 @@ ___
 - kaggle kernel 따라하기
 - kaggle 도전
 - 파이썬 자료형 학습 심화
-- 
+-

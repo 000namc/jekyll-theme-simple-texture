@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Study Orientation
+title: Python Study : Orientation
 categories: study_1
 comments: true
 tags: [study, python]
