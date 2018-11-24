@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "스터디 소개 : Python Study"
-categories: study_1
+categories: Study : Python Study
 tags: [study, python]
 comments: true
 redirect_from:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python Study : Basic"
-categories: study_1
+categories: Study : Python Study
 comments: true
 tags: [study, python]
 redirect_from:

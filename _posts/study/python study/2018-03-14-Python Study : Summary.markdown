@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python Study : Summary"
-categories: study_1
+categories: Study : Python Study
 tags: [study, python]
 comments: true
 redirect_from:
@@ -29,7 +29,7 @@ ___
 2 | built-in function 학습
 3 | 데이터 분석 예제 - titanic
 4 | pandas package 학습
-5 | 
+5 |
 6 |
 
 ___  
