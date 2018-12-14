@@ -29,7 +29,7 @@ Gradient를 계산하게 됩니다. Neural Network는 그 특성상 구조가 �
 
 ___
 
-- **Notation & Convention**
+- **Notation, Convention**
 Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 필요합니다.
 충분히 기호가 많기 때문에 식을 전개할때,
 특정 example을 지칭하는 $(i)$ 는 생략하도록 하였습니다.
@@ -92,6 +92,7 @@ $$
 $$
 
 - **Lemma 1**
+
 $$
 \frac{\partial}{\partial \theta^{(l)}_{kj}} J(\theta) =  \frac{1}{m} \sum^m_{i=1}\sum^{S_L}_{t=1}\Big[ \frac{\partial z_t^{(L)}}{\partial \theta^{(l)}_{kj}} \delta_t^{(L)} \Big] ,\quad l = 1,\cdots,L-1
 $$
@@ -137,6 +138,7 @@ ___
 *Proof of Lemma 1*
 
 $J(\theta)$의 정의로부터 계산을 해 나가면 아래와 같이 된다.
+
 $$
 \begin{aligned}
 J(\theta) &= - \frac{1}{m} \sum^m_{i=1}\sum^{S_L}_{t=1}\Big[ y_t \log(h_{\theta}(x)_t) + (1-y_t)\log(1-h_{\theta}(x)_t) \Big] \\
@@ -177,16 +179,19 @@ $$
 $$
 
 따라서,
+
 $$\sum_{t=1}^{S_L} \frac{\partial z_t^{(L)}}{\partial a^{(L-1)}_{x}} \delta^{(L)}_t =
 \theta_{1x}^{(L-1)}\delta_1^{(L)}+\theta_{2x}^{(L-1)}\delta_2^{(L)} + \cdots + \theta_{S_{L}x}^{(L-1)}\delta_{S_{L}}^{(L)}.$$
 
 $l=p$일 때 성립함을 가정하면,
+
 $$
 \sum_{t=1}^{S_L} \frac{\partial z_t^{(L)}}{\partial a^{(p)}_{x}} \delta^{(L)}_t =
 \theta_{1x}^{(p)}\delta_1^{(p+1)}+\theta_{2x}^{(p)}\delta_2^{(p+1)} + \cdots + \theta_{S_{p+1}x}^{(p)}\delta_{S_{p+1}}^{(p+1)}.
 $$
 
 다음과 같이 $l=p-1$ 일 때 성립함을 보일 수 있다.
+
 $$
 \begin{aligned}
 \sum_{t=1}^{S_L} \frac{\partial z_t^{(L)}}{\partial a^{(p-1)}_{x}} \delta^{(L)}_t &=
