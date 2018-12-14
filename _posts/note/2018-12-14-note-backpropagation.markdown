@@ -35,7 +35,7 @@ $$
 \\
 $$
 
-Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 필요합니다.
+Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 필요합니다.<br />
 충분히 기호가 많기 때문에 식을 전개할때,
 특정 example을 지칭하는 $(i)$ 는 생략하도록 하였습니다.
 
@@ -50,7 +50,7 @@ Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 �
    - $h_{\theta}(x)$ : the Hypothesis function of data x with the parameter $\theta$.
    - $J(\theta)$ : the Cost function.
 
-![temp](./assets/images/bp_figure.png)
+![temp](https://000namc.github.io/assets/images/bp_figure.png)
 
 ___
 - **Definition**
@@ -59,7 +59,7 @@ $$
 \\
 $$
 
-위에서 언급된 여러 기호들에 대하여 아래와 같이 정의함으로써 Neural Network Classifier를 설계하도록 합니다.
+위에서 언급된 여러 기호들에 대하여 아래와 같이 정의함으로써 Neural Network Classifier를 설계하도록 합니다.<br />
 여기서, activation function으로는 sigmoid function만을 고려하였습니다.
 
  $$
@@ -84,7 +84,7 @@ $$
 ___
 
 
-Backpropagation Algorithm을 증명하기위해 두개의 Lemma를 활용하였습니다.
+Backpropagation Algorithm을 증명하기위해 두개의 Lemma를 활용하였습니다.<br />
 먼저 정리와 Lemma를 서술하였고, 이후 증명을 작성하였습니다.
 
 - **Theorem(Backpropagation Algorithm)**
@@ -179,7 +179,7 @@ $$
 ___
 *Proof of Lemma 2*
 
-$l$에 대한 귀납법을 이용하여 위 Lemma를 증명하도록 하자.  
+$l$에 대한 귀납법을 이용하여 위 Lemma를 증명하도록 하자.<br />
 우리는 간단한 계산을 통해 $l = L-1$ 일때 위 식이 성립함을 확인 할 수 있다.
 
 $$
