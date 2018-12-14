@@ -31,7 +31,10 @@ ___
 
 - **Notation, Convention**
 
-$\\$
+$$
+\\
+$$
+
 Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 필요합니다.
 충분히 기호가 많기 때문에 식을 전개할때,
 특정 example을 지칭하는 $(i)$ 는 생략하도록 하였습니다.
@@ -50,7 +53,10 @@ Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 �
 ___
 - **Definition**
 
-$\\$
+$$
+\\
+$$
+
 위에서 언급된 여러 기호들에 대하여 아래와 같이 정의함으로써 Neural Network Classifier를 설계하도록 합니다.
 여기서, activation function으로는 sigmoid function만을 고려하였습니다.
 
