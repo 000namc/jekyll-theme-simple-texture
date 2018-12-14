@@ -30,6 +30,8 @@ Gradient를 계산하게 됩니다. Neural Network는 그 특성상 구조가 �
 ___
 
 - **Notation, Convention**
+
+$\\$
 Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 필요합니다.
 충분히 기호가 많기 때문에 식을 전개할때,
 특정 example을 지칭하는 $(i)$ 는 생략하도록 하였습니다.
@@ -47,6 +49,8 @@ Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 �
 
 ___
 - **Definition**
+
+$\\$
 위에서 언급된 여러 기호들에 대하여 아래와 같이 정의함으로써 Neural Network Classifier를 설계하도록 합니다.
 여기서, activation function으로는 sigmoid function만을 고려하였습니다.
 
@@ -167,7 +171,7 @@ $$
 ___
 *Proof of Lemma 2*
 
-$l$에 대한 귀납법을 이용하여 위 Lemma를 증명하도록 하자.  
+$l$에 대한 귀납법을 이용하여 위 Lemma를 증명하도록 하자.
 우리는 간단한 계산을 통해 $l = L-1$ 일때 위 식이 성립함을 확인 할 수 있다.
 
 $$
