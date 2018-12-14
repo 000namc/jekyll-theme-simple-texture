@@ -50,6 +50,8 @@ Newral Network의 BP를 설명하기 위해서는 아래와같은 기호들이 �
    - $h_{\theta}(x)$ : the Hypothesis function of data x with the parameter $\theta$.
    - $J(\theta)$ : the Cost function.
 
+![temp](./assets/images/bp_figure.png)
+
 ___
 - **Definition**
 
@@ -177,7 +179,7 @@ $$
 ___
 *Proof of Lemma 2*
 
-$l$에 대한 귀납법을 이용하여 위 Lemma를 증명하도록 하자.
+$l$에 대한 귀납법을 이용하여 위 Lemma를 증명하도록 하자.  
 우리는 간단한 계산을 통해 $l = L-1$ 일때 위 식이 성립함을 확인 할 수 있다.
 
 $$
